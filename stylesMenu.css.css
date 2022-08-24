@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: white;
+}
+.nav-responsive{
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(230, 22, 22);
+     padding: 0.8rem 0rem;
+    margin-top: -20vh;
+}
+
+.logo{
+    width: 60px;
+    border-radius: 50%;
+    position: relative;
+   
+}
+h1{
+    margin-left: 10px;
+    font-family: sans-serif;
+    
+}
+h1:hover{
+    color:rgb(66, 64, 64);
+}
+.nav-search{
+    width: 50vw;
+ 
+    margin: 0 auto;
+    position: relative;
+}
+#search{
+    margin: 0 auto;
+    width: 50vw;
+    outline: none;
+    font-size: 1.3rem;
+    padding:0.2rem 2rem 0.2rem 1rem;
+    border-radius: 1rem;
+    border: none;
+}
+#find{
+    position: absolute;
+    font-size: 1.3rem;
+    top: 0.3rem;
+    right: 0.5rem;
+    color: rgb(184, 140, 140);
+    background: transparent;
+}
+
+.access a{
+    color: rgb(8, 8, 8);
+    font-size: 20px;
+    padding:0 10px;
+}
+
+#cart{
+    position: relative;
+    top: -5px;
+    font-size: 30px;
+}
+#bars{
+    padding:0 10px;
+    font-size: 30px;
+    margin-right: 3rem;
+}
+#account{
+    font-size: 30px;
+    margin-right:0px;
+    color: black;
+}
+#account i{
+    font-size: 30px;
+}
+
+#destaque{
+    display: block;
+    margin: 0% auto;
+    margin-top: 20vh;
+    width: 280px;
+    
+}
+
+h5{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#primeiro, p, #segundo, p1, #terceiro, p2{
+float:left;
+
+}
+p, p1, p2{
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 20ch;
+}
+
+
+
